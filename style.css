@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+
+*,*::before,*::after{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+.calculator{
+    width:100%;
+    height: 700px;
+    
+    background-color:		#F5F5DC;
+    border:none;
+    display: flex;
+    padding: 20px;
+  
+    
+    
+     justify-content: center;
+    align-items: center;  
+
+    
+   
+}
+#cal{
+    width:250px;
+    min-height: 450px;
+   
+  
+}
+.calc{
+    width: 300px;
+    height: 550px;
+    background-color:#2f4f4f;
+    position: absolute;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin: 20px;
+    border-radius: 50px;
+   
+}
+
+#inpt{
+    width:100%;
+height: 40px;
+margin-top:10px;
+border: white;
+margin-right:20px;
+background-color:white;
+text-align: right;
+}
+
+.btn.op2{
+    width:50px;
+    height: 30px;
+    border-radius: 50px;
+    border:none;
+    margin-top:10px;
+    font-size: 20px;
+    color:whitesmoke
+   
+    /* margin:10px; */
+    
+}
+.btn.zero{
+    width:110px;
+    height:30px;
+    border-radius: 50px;
+}
+.btn.op3.equals{
+    background-color: red
+}
+.btn.op3{
+    width:60px;
+    height:30px;
+    border-radius: 50px;
+    background-color:  #e1ad01;
+    margin-top:10px;
+    border:none;
+    font-size:15px;
+    /* margin:10px; */
+    color:white
+}
+h3{
+    text-align: center;
+    Font-family: 'Secular One', sans-serif;
+    color: wheat;
+}
